@@ -9,6 +9,7 @@ public class GloomField : MonoBehaviour
     {
         // Debug: This tells us if the AI/Player actually touched the field
         Debug.Log("Object touched the field: " + other.name);
+        Debug.Log("Touch detected! Has Soul: " + Collectable.hasSoul);
 
         if (Collectable.hasSoul)
         {

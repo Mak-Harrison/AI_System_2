@@ -7,6 +7,8 @@ TagManager:
   - Egg
   - GloomRoot
   - Soul
+  - Gloomroot
+  - AI
   layers:
   - Default
   - TransparentFX
